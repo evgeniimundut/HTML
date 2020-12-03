@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Заголовок страницы-->
+    <title>My portfolio</title>
+    <link href="css/style.css" rel="stylesheet">
+
+</head>
+
+<body class="pagebackground">
+    <!--Шапка сайта-->
+    <header>
+        <h1 class="textcolor" align="center">
+            <a id="up">My interests</a></h1>
+
+    </header>
+
+    <!--!Общая информация: образование, контакты, соц. сети, хобби-->
+    <section>
+
+        <h2 class="section-subtitle">About Me:</h2>
+        <div>
+            <img id="my_avatar"
+                src="https://sun9-21.userapi.com/impf/c627319/v627319421/348fa/ODgEy5cvoRw.jpg?size=400x0&quality=90&crop=0,0,1190,1190&sign=b077667a8b58140b0442bc0db636153e&ava=1"
+                width="200" height="170" alt="My foto" title="Evgenii Mundut">
+
+        </div>
+        <div>
+            <h4 class="section-subtitle">General:</h4>
+            <p class="indent">
+                Name: Evgenii Mundut<br>
+                Date of birthday: 31.10.1990 (30 лет)<br>
+                Status: Не женат<br>
+            </p>
+            <address>
+                <div>City: Еленя Гура</div>
+                <div class="indent">Telephone: +48 695 557 672</div>
+                <div class="indent" style="color: rgb(250, 131, 141);">email: evgenii.mundut@gmail.com</div>
+                <p class="indent">
+                    <strong class="listtype">По всем вопросам пишите на почту.</strong>
+                </p>
+            </address>
+
+            <form enctype="multipart/form-data " method="POST">
+                <p class="indent">Прикрепить &darr;</p>
+                <p><input type="file" name="file">
+                <div>
+                    <input class="newbutton" type="reset">
+                    <button class="newbutton" name="submit">Send</button>
+                </div>
+                </p>
+            </form>
+            <h4 class="section-subtitle">Hobby</h4>
+            <ul class="listtype" class="indent" style="font-style: italic;">
+                <li><img src="img/tennis.png" style="margin: 0.2%;" width="10" height="10" alt="pictures" title="tennis"
+                        align="left">Tennis</li>
+                <li><img src="img/swimming.png" style="margin: 0.2%;" width="10" height="10" alt="pictures"
+                        title="swimming" align="left">Swimming</li>
+                <li><img src="img/travel.png" style="margin: 0.2%;" width="10" height="10" alt="pictures"
+                        title="traveling" align="left">Traveling</li>
+            </ul>
+
+
+            <h4 class=" section-subtitle">Education</h4>
+            <table class="indent">
+                <caption class="indent"><u>Minsk institute of Management</u></caption>
+                <tr>
+                    <td>Faculty</td>
+                    <td>Accounting and Finance</td>
+                <tr>
+                    <td>Specialty</td>
+                    <td>Finance and Credit</td>
+                </tr>
+                <tr>
+                    <td>Qualification</td>
+                    <td>Economist</td>
+                </tr>
+                <caption class="captionside">September 2009 - July 2013</caption>
+
+            </table>
+
+            <table>
+                <caption class="indent"><u>College of Entrepreneurship</u></caption>
+                <tr>
+                    <td>Faculty</td>
+                    <td>Banking</td>
+                </tr>
+                <tr>
+                    <td>Specialty</td>
+                    <td>Banker-economist</td>
+                </tr>
+                <caption class="captionside">June 2006 - June 2009</caption>
+            </table>
+
+            <div>
+                <h4 class="section-subtitle">I'm on social networks</h4>
+                <p><img src="img/vk.png" style="margin: 0.2%;" width="10" height="10" alt="pictures" title="Vk"
+                        align="left"><a href="https://vk.com/" target="_blank">I'm in VK</a></p>
+                <p><img src="img/fb.png" style="margin: 0.2%;" width="10" height="10" alt="pictures" title="FB"
+                        align="left"><a href="https://www.facebook.com" target="_blank">I'm in FB</a></p>
+                <p><img src="img/instagram.png" style="margin: 0.2%;" width="10" height="10" alt="pictures"
+                        title="Instagram" align="left"><a href="https://www.instagram.com" target="_blank">I'm in
+                        Instagram</a></p>
+            </div>
+        </div>
+        <div>
+            <h4 class="section-subtitle">My favorite music</h4>
+            <table class="indent">
+                <caption><img src="img/Spotify.png" style="margin: 0.2%;" width="45" height="30" alt="pictures"
+                        title="Vk" align="left"><u style="color: violet;">PlayList</u>
+                </caption>
+                <tr>
+                    <td>#</td>
+                    <td>Исполнитель/Группа</td>
+                    <td>Песни</td>
+                </tr>
+                <tr>
+                    <td rowspan="3">1</td>
+                    <td rowspan="3">LinkinPark</td>
+                    <td>1. Numb</td>
+                </tr>
+                <tr>
+                    <td>2. One More Light</td>
+                </tr>
+                <tr>
+                    <td>3. In the end</td>
+                </tr>
+            </table>
+        </div>
+        <div>
+            <p class="indent" style="color: red;"><b>Оцените мой сайт!!!</b></p>
+            <p class="indent">
+            <form>
+                <input type="radio" id="super" name="answer" value="Прекрассно"><label for="Прекрассно">
+                    Он прекрасен</label><br>
+                <input type="radio" id="norm" name="answer" value="Средне"><label for="Средне">
+                    Средне</label><br>
+                <input type="radio" id="bad" name="answer" value="Ужасно"><label for="Ужасно">
+                    Ужасно</label>
+                </p>
+                <p class="indent"><input class="newbutton" type="submit"></p>
+            </form>
+        </div>
+    </section>
+    <footer style="font-size: 10px; color: rgb(247, 234, 51); text-shadow: 2xp 2px 3px rgb(238, 224, 197);"
+        align="center" ;">Все права защищены!</footer>
+
+
+    <a href="#up" style="color: whitesmoke;">Вверх</a>
+</body>
+
+</html>
