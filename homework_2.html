@@ -10,7 +10,7 @@
 
 </head>
 
-<body class="pagebackground">
+<body class="pagebackground" style="margin-left: 3px;">
     <!--Шапка сайта-->
     <header>
         <h1 class="textcolor" align="center">
@@ -131,7 +131,7 @@
             </table>
         </div>
         <div>
-            <p class="indent" style="color: red;"><b>Оцените мой сайт!!!</b></p>
+            <p class="indent" style="color: rgb(24, 2, 24);"><b>Оцените мой сайт!!!</b></p>
             <p class="indent">
             <form>
                 <input type="radio" id="super" name="answer" value="Прекрассно"><label for="Прекрассно">
@@ -145,11 +145,70 @@
             </form>
         </div>
     </section>
-    <footer style="font-size: 10px; color: rgb(247, 234, 51); text-shadow: 2xp 2px 3px rgb(238, 224, 197);"
-        align="center" ;">Все права защищены!</footer>
 
+    <h2 class="feedbackcolor" align="center">Обратная связь</h2>
 
-    <a href="#up" style="color: whitesmoke;">Вверх</a>
+    <form action="#" method="GET">
+        <div>
+            <p>Name</p>
+            <input tabindex="1" name="username" type="text" placeholder="User">
+        </div>
+        <div>
+            <p class="topindent">Password</p>
+            <input tabindex="2" name="userpass" type="password" placeholder="Password">
+        </div>
+        <div>
+            <p class="topindent">Telephone</p>
+            <input tabindex="3" name="userphone" type="tel" placeholder="Phone">
+        </div>
+        <>
+            <p class="topindent">Gender</p>
+            <div>
+                <input checked tabindex="4" type="radio" name="gender" value="mail">Мужской
+            </div>
+            <div>
+                <input tabindex="5" type="radio" name="gender" value="femail">Женский
+            </div>
+            <div>
+                <p class="topindent">Country</p>
+                <select tabindex="6" name="country">
+                    <option value="Minsk">Минск</option>
+                    <option value="Moscow">Москва</option>
+                    <option value="Kiev">Киев</option>
+                    <option value="London">Лондон</option>
+                </select>
+            </div>
+            <div>
+                <p class="topindent">Additional information</p>
+                <textarea tabindex="6" name="text"></textarea>
+            </div>
+            <div>
+                <p class="topindent">Photo</p>
+                <input tabindex="7" type="file">
+            </div>
+            <div>
+                <p class="topindent">Куда можно прислать ответ?</p>
+                <div>
+                    <input tabindex="8" type="checkbox" name="WA" value="yes">WhatsApp
+                </div>
+                <div>
+                    <input tabindex="9" type="checkbox" name="Telega" value="yes">Telegram
+                </div>
+                <div>
+                    <input tabindex="10" type="checkbox" name="Viber" value="yes">Viber
+                </div>
+                <div>
+                    <p class="topindent">Action</p>
+                    <button tabindex="11" type="submit">Send</button>
+                    <button tabindex="12" type="reset">Reset</button>
+                </div>
+            </div>
+    </form>
+
+    <footer class="rights" align="center">Все права защищены!</footer>
+
+    <a href="#up" style="color: whitesmoke;">Вверх &#8648;</a>
+
 </body>
 
 </html>

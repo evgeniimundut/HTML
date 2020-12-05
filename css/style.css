@@ -148,3 +148,22 @@ td {
     text-align: right;
     caption-side: bottom;
 }
+
+.feedbackcolor {
+    font-size: 30px;
+    color: rgb(235, 167, 79);
+    text-shadow: 2px 2px 3px rgb(24, 8, 39);
+    margin-bottom: 30px;
+}
+
+.rights {
+    font-size: 10px;
+    color: rgb(247, 234, 51);
+    text-shadow: 2px 2px 3px rgb(15, 15, 15);
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.topindent {
+    margin-top: 10px;
+}
