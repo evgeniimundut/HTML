@@ -161,48 +161,48 @@
             <p class="topindent">Telephone</p>
             <input tabindex="3" name="userphone" type="tel" placeholder="Phone">
         </div>
-        <>
-            <p class="topindent">Gender</p>
+
+        <p class="topindent">Gender</p>
+        <div>
+            <input checked tabindex="4" type="radio" name="gender" value="mail">Мужской
+        </div>
+        <div>
+            <input tabindex="5" type="radio" name="gender" value="femail">Женский
+        </div>
+        <div>
+            <p class="topindent">Country</p>
+            <select tabindex="6" name="country">
+                <option value="Minsk">Минск</option>
+                <option value="Moscow">Москва</option>
+                <option value="Kiev">Киев</option>
+                <option value="London">Лондон</option>
+            </select>
+        </div>
+        <div>
+            <p class="topindent">Additional information</p>
+            <textarea tabindex="6" name="text"></textarea>
+        </div>
+        <div>
+            <p class="topindent">Photo</p>
+            <input tabindex="7" type="file">
+        </div>
+        <div>
+            <p class="topindent">Куда можно прислать ответ?</p>
             <div>
-                <input checked tabindex="4" type="radio" name="gender" value="mail">Мужской
+                <input tabindex="8" type="checkbox" name="WA" value="yes">WhatsApp
             </div>
             <div>
-                <input tabindex="5" type="radio" name="gender" value="femail">Женский
+                <input tabindex="9" type="checkbox" name="Telega" value="yes">Telegram
             </div>
             <div>
-                <p class="topindent">Country</p>
-                <select tabindex="6" name="country">
-                    <option value="Minsk">Минск</option>
-                    <option value="Moscow">Москва</option>
-                    <option value="Kiev">Киев</option>
-                    <option value="London">Лондон</option>
-                </select>
+                <input tabindex="10" type="checkbox" name="Viber" value="yes">Viber
             </div>
             <div>
-                <p class="topindent">Additional information</p>
-                <textarea tabindex="6" name="text"></textarea>
+                <p class="topindent">Action</p>
+                <button tabindex="11" type="submit">Send</button>
+                <button tabindex="12" type="reset">Reset</button>
             </div>
-            <div>
-                <p class="topindent">Photo</p>
-                <input tabindex="7" type="file">
-            </div>
-            <div>
-                <p class="topindent">Куда можно прислать ответ?</p>
-                <div>
-                    <input tabindex="8" type="checkbox" name="WA" value="yes">WhatsApp
-                </div>
-                <div>
-                    <input tabindex="9" type="checkbox" name="Telega" value="yes">Telegram
-                </div>
-                <div>
-                    <input tabindex="10" type="checkbox" name="Viber" value="yes">Viber
-                </div>
-                <div>
-                    <p class="topindent">Action</p>
-                    <button tabindex="11" type="submit">Send</button>
-                    <button tabindex="12" type="reset">Reset</button>
-                </div>
-            </div>
+        </div>
     </form>
 
     <footer class="rights" align="center">Все права защищены!</footer>
